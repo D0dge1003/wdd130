@@ -70,8 +70,8 @@ footer{
     border-top:1px solid #000;
     text-align: var(--text-align);
 }
-/* Clas Selectors */
 
+/* Clas Selectors */
 .box{
     margin: 1rem;
     border:var(--border);
