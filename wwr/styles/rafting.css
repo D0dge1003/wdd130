@@ -23,7 +23,6 @@ header, main, footer, section, body{
 }
 h1, h2{
     font-family: var(--heading-font);
-    color: var(--primary-color);
 }
 p, section, article{
     margin: 5px;
