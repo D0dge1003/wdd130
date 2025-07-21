@@ -13,14 +13,25 @@
 nav{
     background-color: rgb(0, 132, 255);
     padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 nav a {
     color: white;
     display: block;
-    padding: 20px;
+    padding: 0.5px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color:#ffffff
 }
 h1{
     color: rgb(0, 132, 255);
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(0 132, 255);
+    margin: 0 0 10px 15px;
+    margin-top: 10px;
 }
 img{
     width: 150px;
@@ -29,13 +40,15 @@ img{
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
-
 ul{
-    width:20rem;
-    
+    width:25rem;
+    height: auto;
+
 }
 p{
     padding: 10px;
+    margin: 0 0 10px 15px;
+    margin-top: 10px;
 }
 main{
     max-width:840px;
@@ -43,12 +56,12 @@ main{
 aside{
     width:20rem;
     text-align:var(--text-align);
-    
+    font-size: 18px;
 }
 aside h2{
     position: absolute;
-    font-size: 20px; ;
-    left: 90px;
+    font-size: 20px; 
+    left: 135px;
     color: rgb(255, 255, 255);
     text-shadow: 3px 3px 5px #777;
 
@@ -58,9 +71,11 @@ aside img{
     height: var(--height);
 }
 main img{
-    width:150px;
+    width:200px;
     height: var(--height);
     float: right;
+    margin: 0 0 10px 15px;
+    margin-top: 25px;
 }
 p{
     padding:0;
@@ -70,12 +85,33 @@ footer{
     border-top:1px solid #000;
     text-align: var(--text-align);
 }
-
 /* Clas Selectors */
 .box{
     margin: 1rem;
     border:var(--border);
-    padding: 1rem;
+    padding: 2rem;
     background: lightskyblue;
     color: #ffffff;
+    text-decoration: none;
+}
+header, .grid, footer{
+    max-width: 840px;
+    margin: 0 auto;
+}
+.grid{
+    display: grid;
+    align-items: flex-start;
+}
+main{
+    grid-column: 2/3;
+    margin: 3rem;
+}
+aside{
+    width: 20rem;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+a{
+    color:#ffffff;
 }
