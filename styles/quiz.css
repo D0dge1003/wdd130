@@ -28,7 +28,8 @@ form {
     width: 650px;
     margin: 0 auto;
     padding: 1rem;
-    border: 1px solid rgb (0 0 0 / 0.1);
+    /* FIX: Removed space before (0 0 0 / 0.1) in rgb() */
+    border: 1px solid rgb(0 0 0 / 0.1);
     border-radius: 0.5rem;
     background-color: #eee;
     display: grid;
@@ -38,14 +39,16 @@ fieldset {
     display: grid;
     grid-gap: .5rem;
     margin: 1rem;
-    border: 1px solid rgb(0, 0, 0/ 0.2);
+    /* FIX: Removed space before (0, 0, 0/ 0.2) in rgb() */
+    border: 1px solid rgb(0, 0, 0 / 0.2);
     padding: 1rem;
 }
 
 legend {
     padding: 0.5rem;
     color: rgb(1, 111, 255);
-    font-size: 1.3 rem;
+    /* FIX: Removed space between 1.3 and rem. Units should not have a space. */
+    font-size: 1.3rem;
 }
 
 label,
@@ -70,7 +73,7 @@ textarea {
 input[type="checkbox"] {
     width: 22px;
     height: 22px;
-    margin-right:10px;
+    margin-right: 10px;
 }
 
 button {
@@ -105,6 +108,7 @@ footer {
     grid-template-columns: 3fr 1fr;
     margin: 0.5rem 0;
 }
+
 .headtitle {
     color: rgb(0, 77, 219);
     display: flex;
@@ -116,7 +120,8 @@ footer {
     padding: 1rem;
     font-weight: bold;
 }
-input[type="submit"]{
+
+input[type="submit"] {
     background-color: #0059ff;
     color: #ffffff;
     border-style: none;
@@ -124,6 +129,7 @@ input[type="submit"]{
     margin: 10px;
     padding: 15px;
 }
+
 .form-item img {
     display: block;
     width: 100%;
