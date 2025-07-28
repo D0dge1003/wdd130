@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    color: #333;
+    background: #fff;
+}
+
+header {
+    margin: 0 auto;
+    width: 650px;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 1rem;
+    font-size: 1.5em;
+    color: rgb(1, 111, 255);
+    text-align: left;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgb (0 0 0 / 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgb(0, 0, 0/ 0.2);
+    padding: 1rem;
+}
+
+legend {
+    padding: 0.5rem;
+    color: rgb(1, 111, 255);
+    font-size: 1.3 rem;
+}
+
+label,
+input,
+button,
+select,
+textarea {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+label {
+    padding-right: 1rem;
+}
+
+input,
+select,
+textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    margin-right:10px;
+}
+
+button {
+    margin: 1rem;
+    background-color: #85e3ff;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: darkblue;
+}
+
+footer {
+    margin: 1rem auto 0;
+    width: 650px;
+    text-align: center;
+    font-size: 0.8em;
+    color: #777;
+    border-top: 1px solid #ccc;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+}
+.headtitle {
+    color: rgb(0, 77, 219);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    font-size: 30px;
+    align-items: center;
+    padding: 1rem;
+    font-weight: bold;
+}
+input[type="submit"]{
+    background-color: #0059ff;
+    color: #ffffff;
+    border-style: none;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 15px;
+}
+.form-item img {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}

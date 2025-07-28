@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Basic HTML and CSS Quiz</title>
+    <meta name="description" content="Describe your name, the course, the purpose of the page.">
+    <meta name="author" content="Karel Ignacio">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/quiz.css">
+
+    <header>
+        <div class="headtitle">
+        <label for="title">Basic HTML and CSS Quiz</label>
+        <input type="checkbox" id="title" name="title">
+        </div>
+    </header>
+</head>
+
+<body>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Answer the following questions: </legend>
+                <div class="form-item">
+                    <label for="q1">1. What does the acronym CSS stand for?</label>
+                    <input type="text" id="q1" name="q1"><br>
+                </div>
+                <div class="form-item">
+                    <label for="q2">2. How are id and class atributes selected in CSS?</label>
+                                    <textarea id="q2" name="q2" rows="4"
+                                        placeholder="Type your answer here"></textarea><br>
+                </div>
+                <div class="form-item">
+                    <label for="q3">3. Which of the following is a valid CSS comment?</label>
+                </div>
+                    <div class="form-item">
+                        <select id="q3" name="q3"><br>
+                            <option value="choose">Choose One...</option>
+                            <option value="option1">a. /* This is a CSS comment */</option>
+                            <option value="option2">b. # This is a CSS comment</option>
+                            <option value="option3">c. """This is a CSS comment"""</option>
+                            <option value="option4">d. // This is a CSS comment</option>
+                            <option value="option5">e. None of the above</option>
+                        </select>
+                <div class="form-item">
+                    <br><label for="q4">4. What is the bottom margin given this declaration?</label>
+                    <img src = "images/question4.png" alt="Question_number4">
+                    <input type="number" id="q4" name="q4"><br>
+                </div>
+                <input type="submit" value="Submit Quiz">
+            </fieldset>
+        </form>
+        </fieldset>
+    </main>
+    <footer>
+        <p>©️2025 | HTML Form User Poll Activity | Karel Ignacio</p>
+    </footer>
+</body>
+
+</html>
