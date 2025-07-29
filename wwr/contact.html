@@ -67,8 +67,7 @@
                 <div class="map-1">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d493906.14390207606!2d121.03861710367957!3d14.732835292318363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33978bbd06cdb879%3A0xe8d09419ba7e90d8!2sTanauan%20White%20River%20Rafting!5e0!3m2!1sen!2sph!4v1753763450133!5m2!1sen!2sph"
-                        allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
 
@@ -77,35 +76,36 @@
                     <div class="rectangle-6">
                         <div class="inquiry">
                             <label>Nature of the Inquiry</label><br>
-                            
-                        <div class="radio">
-                                <input type="radio" id="qustion1" name="question1" value="1">
-                                <label for ="question1">General Inquiry</label><br>
 
-                                <input type="radio" id="qustion2" name="question2" value="2">
-                                <label for="question2">Reservation Question</label><br>
+                            <div class="radio">
+                                <input type="radio" id="inquiryGeneral" name="inquiry_type" value="general">
+                                <label for="inquiryGeneral">General Inquiry</label><br>
 
-                                <input type="radio" id="qustion3" name="question3" value="3">
-                                <label for="question3">Website Suggestion</label>
+                                <input type="radio" id="inquiryReservation" name="inquiry_type" value="reservation">
+                                <label for="inquiryReservation">Reservation Question</label><br>
+
+                                <input type="radio" id="inquiryWebsite" name="inquiry_type" value="website">
+                                <label for="inquiryWebsite">Website Suggestion</label>
+                            </div>
                         </div>
 
                         <div class="full-name">
-                            <br><label>Fullname:</label>
+                            <label for="fullName">Fullname:</label>
                         </div>
-                        <input type="text" class="text-input-2" placeholder="Your name">
+                        <input type="text" class="text-input-2" id="fullName" placeholder="Your name">
                         <div class="email">
-                            <br><label>Email:</label>
+                            <label for="emailAddress">Email:</label>
                         </div>
-                        <input type="text" class="text-input-2" placeholder="Your email">
+                        <input type="text" class="text-input-2" id="emailAddress" placeholder="Your email">
                         <div class="company-optional">
-                            <br><label>Company (optional)</label>
+                            <label for="companyName">Company (optional)</label>
                         </div>
-                        <input type="text" class="text-input-6" placeholder="Company name">
+                        <input type="text" class="text-input-6" id="companyName" placeholder="Company name">
                         <div class="leave-us-a-message">
-                            <br><label>Leave us a message</label>
+                            <label for="messageText">Leave us a message</label>
                         </div>
-                        <textarea class="text-area-1" placeholder="Type your message here..."></textarea>
-
+                        <textarea class="text-area-1" id="messageText"
+                            placeholder="Type your message here..."></textarea>
                         <div class="checkbox-1">
                             <input type="checkbox" id="newsletter">
                             <label for="newsletter">Please subscribe me to the newsletter</label>
@@ -115,8 +115,7 @@
                 </form>
             </div>
         </div>
-        </div>
-    <section>
+        <section>
             <div class="employee_head">
                 <h2>Employee Profiles</h2>
             </div>
@@ -147,7 +146,7 @@
                 <div class="employee">
                     <figure>
                         <img src="images/employee4.jpg" alt="Landscape view">
-                        <h1>Vicky CUtler</h1>
+                        <h1>Vicky Cutler</h1>
                         <figcaption>"Why chase waterfalls when you can run them?"</figcaption>
                     </figure>
                 </div>

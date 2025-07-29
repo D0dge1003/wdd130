@@ -381,7 +381,6 @@ figure {
     letter-spacing: 2.8px;
     text-align: left;
     padding-right: 0;
-    /* Changed from auto to 0 */
     background-color: var(--accent1-color);
 }
 
@@ -555,7 +554,6 @@ figure {
     text-align: center;
     cursor: pointer;
     margin-top: 45px;
-    margin-left:120px;
 }
 
 .text-input-1,
@@ -574,9 +572,7 @@ figure {
     text-align: left;
 }
 
-.full-name label, .email label, .company-optional label, .leave-us-a-messagelabel, .inquiry{
-    width: auto;
-    height: 25px;
+.full-name, .email, .company-optional, .leave-us-a-message, .inquiry{
     color: #444444;
     font-family: var(--body-font);
     font-weight: 600;
@@ -589,14 +585,12 @@ figure {
 .inquiry label{
     margin:10px;
 }
-
     
 .radio{
     font-family: var(--body-font);
     font-size:12px;
     margin-top: 10px;
     text-align: left;
-    font-weight:0;
     margin-left:10px;
 }
 
