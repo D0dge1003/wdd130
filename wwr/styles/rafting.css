@@ -721,3 +721,145 @@ figure {
     position: static;
     background-color: transparent;
 }
+/*HOME*/
+.head img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.head h3{
+    position: absolute;
+    padding: 30px;
+    font-size: 50px;
+    color: #fff;
+}
+.reviews{
+    padding:30px;
+}
+.reviews figcaption{
+    font-size: 20px;
+    font-family: var(--body-font);
+    text-align: center;
+    padding-top:30px;
+    border-top: 1px solid #ccc;
+    font-weight: bold;
+
+}
+.button9{
+    width: 200px;
+    height: 49px;
+    padding: 12px;
+    margin-left: 290px;
+    background: var(--primary-color);
+    color: #ffffff;
+    border: 1px solid var(--accent1-color);
+    border-radius: 9px;
+    font-family: var(--body-font);
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+}
+.button9 a{
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+}
+.reviews h3{
+    padding-bottom:10px;
+    font-size: 30px;
+}
+.mission {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    position: static;
+    top: auto;
+    right: auto;
+}
+.mission img{
+    display: block;
+    width: 500px;
+    height: 750px;
+}
+.purpose img{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.offering img{
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.mission h3{
+    position: absolute;
+    padding: 30px;
+    font-size: 50px;
+    color: #ffffff;
+    margin-left: 160px;
+}
+.mission p{
+    position: absolute;
+    padding: 30px;
+    color: #ffffff;
+    background-color: var(--accent1-color);
+    opacity: 70%;
+    width:490px;
+    margin-top: 300px;
+    display:flex;
+    font-size: 20px;
+}
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 20px 0;
+    width: 100%;
+}
+
+.form-left {
+    flex: 0 0 465px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-direction: column;
+}
+.form-email{
+    font-family: var(--body-font);
+    padding: 10px;
+    margin-right: 400px;
+    text-align: center;
+}
+.form-name{
+    font-family: var(--body-font);
+    padding: 10px;
+    margin-right: 360px;
+    text-align: center;
+
+}
+.form-left h3{
+    font-size: 50px;
+    margin-top: 60px;
+}
+.form-right {
+    flex: 0 0 537px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-left label{
+    width: auto;
+    height: 15px;
+    margin-right: 8px;
+    vertical-align: middle;
+    font-family: var(--body-font);
+    background-color: transparent;
+}
+.checkbox-form{
+    width: auto;
+    height: 15px;
+    vertical-align: middle;
+    font-family: var(--body-font);
+    padding:25px;
+}
