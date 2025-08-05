@@ -977,6 +977,27 @@ figure {
 .expect_head{
     border-top: 1px solid #ccc;
 }
+/*Table*/
+.container3 {
+	padding: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    margin-left: 10px;
+}
+.columns-3 {
+	grid-column: 1/4;
+}
+.four p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.columns-3 h4{
+    font-size:50px;
+    padding: 0 100px 0 100px;
+    color:var(--accent1-color);
+    border-bottom:1px solid #ccc;
+}
 .acknowledgement img{
     display: block;
     width: 100%;
