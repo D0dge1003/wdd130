@@ -722,12 +722,12 @@ figure {
     background-color: transparent;
 }
 /*HOME*/
-.head img {
+.hero img {
     display: block;
     width: 100%;
     height: auto;
 }
-.head h3{
+.hero h3{
     position: absolute;
     padding: 30px;
     font-size: 50px;
@@ -745,11 +745,11 @@ figure {
     font-weight: bold;
 
 }
-.button9{
+.call-to-action{
     width: 200px;
     height: 49px;
     padding: 12px;
-    margin-left: 290px;
+    margin-left: 320px;
     background: var(--primary-color);
     color: #ffffff;
     border: 1px solid var(--accent1-color);
@@ -760,7 +760,7 @@ figure {
     text-align: center;
     cursor: pointer;
 }
-.button9 a{
+.call-to-action a{
     text-decoration: none;
     color: #fff;
     text-align: center;
@@ -770,13 +770,15 @@ figure {
     font-size: 30px;
 }
 .mission {
-    display: flex;
+    margin-top: 50px;
+    display: grid;
     flex-wrap: nowrap;
     justify-content: center;
     align-items: flex-start;
     position: static;
     top: auto;
     right: auto;
+    grid-template-columns: 1fr 1fr;
 }
 .mission img{
     display: block;
@@ -978,26 +980,35 @@ figure {
     border-top: 1px solid #ccc;
 }
 /*Table*/
-.container3 {
+.trip-table {
 	padding: 50px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     justify-items: center;
     margin-left: 10px;
 }
-.columns-3 {
-	grid-column: 1/4;
-}
-.four p{
-    font-size: 20px;
+.trip-table thead{
+    font-size: 50px;
     font-weight: bold;
+    text-align: center;
 }
-.columns-3 h4{
+.trip-table h4{
     font-size:50px;
-    padding: 0 100px 0 100px;
     color:var(--accent1-color);
-    border-bottom:1px solid #ccc;
 }
+.trip-table tbody{
+    font-size: 30px;
+    font-family: var(--body-font);
+}
+thead th{
+    padding: 0 70px 0 70px;
+}
+thead tr{
+    background-color: var(--accent1-color);
+    opacity: 80%;
+    color: #fff;
+}
+
 .acknowledgement img{
     display: block;
     width: 100%;
@@ -1022,7 +1033,7 @@ figure {
     display:flex;
     font-size: 15px;
 }
-.button10{
+.call-to-action2{
     width: 200px;
     height: 49px;
     padding: 12px;
@@ -1038,7 +1049,7 @@ figure {
     cursor: pointer;
     margin-top:20px;
 }
-.button10 a{
+.call-to-action2 a{
     text-decoration: none;
     color: #fff;
     text-align: center;
