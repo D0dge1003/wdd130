@@ -863,3 +863,162 @@ figure {
     font-family: var(--body-font);
     padding:25px;
 }
+/*Trips*/
+.head_statement h3{
+    color:var(--accent1-color);
+    font-size: 100px;
+    padding: 0 200px 0 200px;
+}
+.definitions{
+    display: flex;
+	flex-wrap: nowrap;
+    padding:30px;
+    font-size: 20px;
+    align-items: center;
+}
+.definitions h4{
+    font-size: 30px;
+}
+.definitions p{
+    text-align: center;
+}
+.level, .min_age, .rating, .price{
+    border-left: 1px solid #ccc;
+}
+.body_img img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.left_statement{
+    flex: 0 0 465px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.right_statement {
+    flex: 0 0 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.statements {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 20px 0;
+    width: 100%;
+}
+.right_statement li{
+    font-family: var(--body-font);
+    text-align: left;
+    padding: 10px;
+}
+.right_statement ul{
+    margin:10px;
+}
+.statements h4{
+    font-size: 25px;
+}
+.left_statement p{
+    text-align: justify;
+}
+.expect{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 20px 0;
+    width: 100%;
+}
+.left_expect{
+    flex: 0 0 465px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.left_expect h4{
+    font-size: 25px;
+}
+.left_expect p{
+    text-align: justify;
+}
+.right_expect {
+    flex: 0 0 300px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.right_expect{
+    text-align: left;
+}
+.right_expect h4{
+    font-size: 25px;
+}
+.right_expect iframe{
+    height: 560px;
+    width:300px;
+}
+.left_expect img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.expect_head h4{
+    font-size:50px;
+    margin-top: 30px;
+}
+.expect_head h5{
+    font-size:20px;
+    font-family: var(--body-font);
+}
+.expect_head{
+    border-top: 1px solid #ccc;
+}
+.acknowledgement img{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+.acknowledgement h4{
+    position: absolute;
+    padding: 30px;
+    font-size: 50px;
+    color: #ffffff;
+    margin-left: 160px;
+}
+.acknowledgement p{
+    position: absolute;
+    width:830px;
+    padding: 20px;
+    color: #ffffff;
+    background-color: var(--accent1-color);
+    opacity: 80%;
+    margin-top: 100px;
+    display:flex;
+    font-size: 15px;
+}
+.button10{
+    width: 200px;
+    height: 49px;
+    padding: 12px;
+    margin-left: 320px;
+    background: var(--primary-color);
+    color: #ffffff;
+    border: 1px solid var(--accent1-color);
+    border-radius: 9px;
+    font-family: var(--body-font);
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    margin-top:20px;
+}
+.button10 a{
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+}
